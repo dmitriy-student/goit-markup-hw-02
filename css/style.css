@@ -1,0 +1,149 @@
+:root{
+  --accent-blue:#2196F3;
+  --black:#000;
+  --white:#fff;
+  --white-transparent:rgba(255, 255, 255, 0.6);
+  --color-footer:#2F303A;
+  --color-title:#212121;
+  --color-desc:#757575;
+  --bg-color-main:#2F303A;
+  --bg-color-secondary:#F5F4FA;
+}
+
+/* Body */
+
+body{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* Header */
+
+.logo{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--accent-blue);
+}
+
+.logo > span{
+  color: var(--black);
+}
+
+.link{
+  color: var(--color-title);
+}
+
+.link:hover,
+.link:focus{
+  color: var(--accent-blue);
+}
+
+/* Main */
+
+.hero-section{
+  background-color: var(--bg-color-main);
+  color: var(--white);
+}
+
+.main-button{
+  background-color: var(--accent-blue);
+  color: var(--white);
+}
+
+.title{
+  color: var(--color-title);
+}
+
+.subtitle{
+  color: var(--color-title);
+}
+
+.desc{
+  color: var(--color-desc);
+}
+
+.talant-section .subtitle{
+  text-transform: uppercase;
+}
+
+.team-section{
+background-color: var(--bg-color-secondary);
+}
+
+/* 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.button{
+  background: var(--blue);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  position: absolute;
+  width: 216px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  color: #fff;
+  border: 0;
+} */
+
+
+/* Footer */
+
+footer{
+  background-color: var(--bg-color-main);
+}
+
+footer .logo > span{
+color: var(--white);
+}
+
+footer a {
+  color: var(--white);
+}
+
+footer a:hover,
+footer a:focus{
+  color: var(--accent-blue);
+}
+
+/* Portfolio Main */
+
+.portfolio-section{
+
+}
+
+.portfolio-button{
+  background-color: var(--bg-color-secondary);
+  color: var(--color-title);
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus{
+  background-color: var(--accent-blue);
+  color: var(--white);
+}

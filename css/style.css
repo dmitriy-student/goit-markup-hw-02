@@ -21,15 +21,17 @@ body {
   letter-spacing: 0.03em;
 }
 
-ul {
-  list-style: none;
-}
-
-a {
+.link {
   text-decoration: none;
+  color: inherit;
 }
 
 /* Header */
+
+.list {
+  list-style: none;
+}
+
 .navigation {
   letter-spacing: 0.02em;
 }
@@ -47,12 +49,12 @@ a {
   color: var(--black);
 }
 
-.link {
+.navigation-link {
   color: var(--color-title);
 }
 
-.link:hover,
-.link:focus {
+.navigation-link:hover,
+.navigation-link:focus {
   color: var(--accent-blue);
 }
 
@@ -125,7 +127,6 @@ a {
   text-align: center;
 }
 
-/* 
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -139,36 +140,40 @@ a {
   margin: -1px;
 }
 
-.button{
-  background: var(--blue);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  position: absolute;
-  width: 216px;
-  height: 50px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.875;
-  color: #fff;
-  border: 0;
-} */
-
 /* Footer */
 
-footer {
+.footer {
   background-color: var(--bg-color-main);
 }
 
-footer .logo > span {
+.footer-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: var(--accent-blue);
+}
+
+.footer-logo > span {
   color: var(--white);
 }
 
-footer a {
+.footer-link {
   color: var(--white);
 }
 
-footer a:hover,
-footer a:focus {
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-blue);
+}
+
+.footer-link-address {
+  color: var(--white-transparent);
+}
+
+.footer-link-address:hover,
+.footer-link-address:focus {
   color: var(--accent-blue);
 }
 
